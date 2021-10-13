@@ -34,6 +34,7 @@ public class Post extends PanacheMongoEntity {
         return timestamp;
     }
 
+    // Returns the title
     public void setTitle(String title) {
         this.title = title;
     }
